@@ -1,4 +1,5 @@
 # coursera-cryptocurrency
-Assignments of the Coursera online course `Bitcoin and Cryptocurrency Technologies`
+Assignments of the Coursera online course [Bitcoin and Cryptocurrency Technologies](https://www.coursera.org/learn/cryptocurrency)
 
-- Assignment1 - ScroogeCoin
+- Assignment1 : ScroogeCoin
+- Assignment2 : Consensus from Trust
