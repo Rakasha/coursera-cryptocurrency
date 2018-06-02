@@ -141,6 +141,10 @@ public class TxHandler {
         return validTransactions.toArray(new Transaction[0]);
     }
 
+    public UTXOPool getUTXOPool() {
+        return this.utxoPool;
+    }
+
     private void updateUTXOPool(Transaction tx) {
         // Remove referenced UTXOs from pool
         for (Transaction.Input input: tx.getInputs()) {
