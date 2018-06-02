@@ -10,22 +10,22 @@ public class BlockChain {
      * block
      */
     public BlockChain(Block genesisBlock) {
-        // IMPLEMENT THIS
+        // TODO: IMPLEMENT THIS
     }
 
     /** Get the maximum height block */
     public Block getMaxHeightBlock() {
-        // IMPLEMENT THIS
+        // TODO: IMPLEMENT THIS
     }
 
     /** Get the UTXOPool for mining a new block on top of max height block */
     public UTXOPool getMaxHeightUTXOPool() {
-        // IMPLEMENT THIS
+        // TODO: IMPLEMENT THIS
     }
 
     /** Get the transaction pool to mine a new block */
     public TransactionPool getTransactionPool() {
-        // IMPLEMENT THIS
+        // TODO: IMPLEMENT THIS
     }
 
     /**
@@ -41,11 +41,11 @@ public class BlockChain {
      * @return true if block is successfully added
      */
     public boolean addBlock(Block block) {
-        // IMPLEMENT THIS
+        // TODO: IMPLEMENT THIS
     }
 
     /** Add a transaction to the transaction pool */
     public void addTransaction(Transaction tx) {
-        // IMPLEMENT THIS
+        // TODO: IMPLEMENT THIS
     }
 }
